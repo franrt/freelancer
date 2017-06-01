@@ -2,7 +2,39 @@
  * Estilos reutilizables
  */
 
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat';
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row:before .row:after {
+    content: "";
+    /*tiene contenido vacio xq no quiero que tenga nada al lado*/
+    display: table;
+}
+
+.row after {
+    clear: both;
+}
+
+[class*="col-"] {
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.img-responsive {
+    width: 100%;
 }
