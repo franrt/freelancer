@@ -2,6 +2,10 @@
  * Estilos de tu proyecto
  */
 
+.body {
+    position: relative;
+}
+
 
 /*navbar*/
 
@@ -89,7 +93,7 @@ li a:hover {
 
 .portfolio {
     position: absolute;
-    top: 553px;
+    top: 600px;
     background: white;
     height: 450px;
     width: 100%;
@@ -102,5 +106,42 @@ li a:hover {
 }
 
 .portfolio .images {
+    padding: 30px;
     width: 100px;
 }
+
+
+/* about */
+
+.about {
+    position: absolute;
+    top: 1300px;
+    background: #18bc9c;
+    width: 100%;
+    height: 400px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.about h1 {
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#izq {
+    margin-top: 30px;
+    float: left;
+}
+
+#der {
+    margin-top: 30px;
+    float: right;
+}
+
+
+/* contact */
+
+
+/* footer */
